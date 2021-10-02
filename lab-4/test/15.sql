@@ -1,0 +1,5 @@
+-- How  many  distinct  orders  are
+--between  customers  with
+--positive  account  balance  and
+--suppliers  with negative account 
+--balance?

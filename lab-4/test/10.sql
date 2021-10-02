@@ -1,0 +1,3 @@
+--Find the minimum and maximum
+-- discount for every part having
+--ECONOMY and COPPER in its type

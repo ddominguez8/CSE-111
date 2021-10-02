@@ -1,0 +1,21 @@
+--Find the total number of line items
+-- on orders with priority3-MEDIUM
+--supplied by suppliers from CANADA.
+--Groups these line items based on the
+-- year of the order from o_orderdate.  
+--Print the year and the count.
+--Check the substr function in SQLite.
+
+--commented out to prevent delay in test
+--wasn't working anyways, kinda got 
+--the hang of it but still needs more work
+-- SELECT substr(o_orderdate,1,4),
+--     COUNT(DISTINCT o_orderkey)
+-- FROM orders, lineitem, customer, supplier,
+--     partsupp
+-- WHERE o_orderpriority = '3-MEDIUM' 
+-- AND o_orderkey = l_orderkey
+-- AND l_partkey = ps_partkey
+-- AND l_suppkey = s_suppkey
+-- AND s_nationkey = 3
+-- GROUP BY substr(o_orderdate, 1,4)

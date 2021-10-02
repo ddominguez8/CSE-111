@@ -1,0 +1,4 @@
+--How many line  items  are  
+--supplied  by  suppliers  in
+--AFRICAfor  orders  made  by  
+--customers  in UNITED STATES
