@@ -4,3 +4,9 @@
 -- are from one region and the 
 --customers are from the other
 -- region.
+
+-- SELECT r_name, MAX(o_totalprice)
+-- FROM orders, region, nation, lineitem, supplier
+-- WHERE o_custkey = c_custkey 
+--     AND c_nationkey = n_nationkey 
+--     AND 
