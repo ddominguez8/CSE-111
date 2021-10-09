@@ -1,0 +1,3 @@
+-- For every order priority, count the number of parts
+-- ordered in 1997 and received later (lreceiptdate) 
+-- than the commit date (lcommitdate)

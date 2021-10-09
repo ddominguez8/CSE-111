@@ -1,0 +1,4 @@
+-- Count the number of orders made in the fourth quarter
+-- of 1997 in which at least one line item was received 
+-- by  a  customer  earlier  than  its  commit  date.  
+-- List  the  count  of  such  orders  for  every  order priority.

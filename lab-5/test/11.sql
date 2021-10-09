@@ -1,0 +1,3 @@
+--  Find  the  lowest  value  line  item(s) 
+-- (lextendedprice*(1-ldiscount))  shipped after October 2,1996.  
+-- Print the name of the part corresponding to these line item(s).

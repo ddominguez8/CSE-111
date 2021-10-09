@@ -1,0 +1,6 @@
+-- The market share for a given nation within a 
+-- given region is defined as the fraction of the
+-- revenue from the line items ordered by customers in the 
+-- given region that are supplied by suppliers from the given nation.
+-- The revenue of a line item is defined as lextendedprice*(1-ldiscount). 
+-- Determine themarket share of UNITED STATES in ASIA in 1997(lshipdate).

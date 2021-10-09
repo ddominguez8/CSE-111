@@ -1,0 +1,3 @@
+-- Count the number of distinct suppliers that supply 
+-- parts whose type contains POLISHED and have size 
+-- equal to any of 3, 23, 36, and 49.

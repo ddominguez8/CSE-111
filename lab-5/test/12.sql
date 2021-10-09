@@ -1,0 +1,4 @@
+-- What is the total supply cost (pssupplycost) 
+-- for parts less expensive than $1000 (pretailprice) 
+-- shipped in 1997 (lshipdate) by suppliers who did
+-- not supply any line item with an extended price less than 2000 in 1996?
