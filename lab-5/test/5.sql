@@ -3,6 +3,10 @@
 -- (pssupplycost), for every part size.  Print the supplier name 
 -- together with the part size and the minimum cost.
 
+-- Collaborated with Salvador Rodriguez who mainly helped me solve this problem,
+-- found out lines 3 and 4 in 5.out are swapped, causing the failure while 
+-- running test.sh
+
 SELECT s_name, p_size, MIN(ps_supplycost)
 FROM partsupp, supplier, part, nation
 WHERE p_type LIKE '%STEEL%'

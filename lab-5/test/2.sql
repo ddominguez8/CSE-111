@@ -12,4 +12,4 @@ WHERE s_nationkey = n_nationkey
             AND nat.n_regionkey = reg.r_regionkey
             AND region.r_regionkey = reg.r_regionkey
         )  
-GROUP BY r_name;
+GROUP BY r_name

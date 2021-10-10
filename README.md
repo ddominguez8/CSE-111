@@ -16,3 +16,9 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 ## Quiz 2 
 - The trees are cool. Definitely a breeze once you figure out what the SQL equivalent statements are. 
 - I was stuck on #3 for a long time. Thanks to Jackie for helping me with that one, I was able to intersect the makers correctly, I just didn't join the models with one another to gain that correlation. Good to know for next time though. 
+
+## Lab 5
+- I found that if you include tables that serve no purpose in the query, then your query may run EXTRAORDINARILY SLOW. Wow what a difference after I went through and optimized some of the queries.
+- Note from problem 9: group by and order by are so confusing to work with together, but this problem _sorta_ makes sense. 
+- Note from problem 7: collaboration with Salvador Rodriguez, who helped me solve why I was getting an unnecessary amount in the count. Turns out if you include unnecessary tables in the FROM clause you might have different results. See the problem for more info.
+- Note from problem 5: collaboration with Salvador Rodriguez, we both realized our outputs are the same, however we were failing the test case, because lines 3 & 4 are swapped in the result file the test file is checking with. Will include this in comments for submission to get 12/15
