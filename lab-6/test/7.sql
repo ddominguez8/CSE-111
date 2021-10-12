@@ -1,0 +1,3 @@
+-- Find  how  many  suppliers  have  less  than 
+-- 50  distinct  orders  from  customers  in GERMANY 
+-- and FRANCE together.

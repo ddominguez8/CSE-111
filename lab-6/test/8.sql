@@ -1,0 +1,3 @@
+-- Find  how  many  distinct  customers  
+-- have  at  least  one  order  supplied  
+-- exclusively  by  suppliers  from AMERICA.

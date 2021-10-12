@@ -1,0 +1,3 @@
+-- Find the total quantity (lquantity) of
+-- line items shipped per month (lshipdate) in 1995. 
+-- Hint:check function strftimeto extract the month/year from a date.

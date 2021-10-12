@@ -1,0 +1,2 @@
+-- Find how many parts are supplied by exactly 
+-- two suppliers from UNITED STATES.

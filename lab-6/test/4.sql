@@ -1,0 +1,2 @@
+-- Find how many suppliers from UNITED 
+-- STATES supply more than 40 different parts.

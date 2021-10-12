@@ -22,3 +22,5 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 - Note from problem 9: group by and order by are so confusing to work with together, but this problem _sorta_ makes sense. 
 - Note from problem 7: collaboration with Salvador Rodriguez, who helped me solve why I was getting an unnecessary amount in the count. Turns out if you include unnecessary tables in the FROM clause you might have different results. See the problem for more info.
 - Note from problem 5: collaboration with Salvador Rodriguez, we both realized our outputs are the same, however we were failing the test case, because lines 3 & 4 are swapped in the result file the test file is checking with. Will include this in comments for submission to get 12/15
+
+## Lab 6

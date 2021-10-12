@@ -1,0 +1,2 @@
+-- Find the nation(s) having customers that
+-- spend the smallest amount of money (ototalprice).

@@ -1,0 +1,2 @@
+-- Find the number of customers who had at
+-- least three orders in November 1995(oorderdate).
