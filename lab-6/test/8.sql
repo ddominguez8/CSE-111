@@ -5,11 +5,18 @@
 -- ima figure this out later
 
 -- SELECT COUNT(DISTINCT c_custkey) 
--- FROM customer
+-- FROM customer c, supplier s
 -- WHERE 1 < 
 --     (SELECT COUNT(DISTINCT o_orderkey)
---     FROM orders, supplier, lineitem
+--     FROM orders, supplier supp, lineitem
 --     WHERE o_orderkey = l_orderkey 
---         AND l_suppkey = s_suppkey 
---         AND s_nationkey = 24
---         AND s_nationkey NOT BETWEEN 1 AND 23)
+--         AND l_suppkey = supp.s_suppkey 
+--         AND s.s_nationkey IN (
+--         SELECT n_nationkey 
+--         FROM nation 
+--         WHERE n_regionkey = 
+--             (SELECT r_regionkey 
+--             FROM region reg
+--             WHERE reg.r_name = 'AMERICA')
+--         )
+--     )
