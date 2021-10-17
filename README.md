@@ -24,3 +24,6 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 - Note from problem 5: collaboration with Salvador Rodriguez, we both realized our outputs are the same, however we were failing the test case, because lines 3 & 4 are swapped in the result file the test file is checking with. Will include this in comments for submission to get 12/15
 
 ## Lab 6
+- Okay definitely did not have enough time to do this, wasn't time inefficiency just unfortunate turn of events for the week
+- Although, did play a lot with subqueries in the GROUP BY - HAVING clause, along with in the SELECT clause as well. 
+- Will go to TA for the following lab to see if I can further improve this lab past the due date and do better for next lab.
