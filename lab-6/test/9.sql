@@ -3,4 +3,20 @@
 -- supplied by exactly 3 suppliers from ASIA.
 
 -- SELECT (DISTINCT p_name) 
--- FROM 
+-- FROM customer, supplier, part
+-- WHERE c_custkey IN 
+--     (SELECT c.c_custkey
+--     FROM customer c, nation n, region r
+--     WHERE c.c_nationkey = n.n_nationkey 
+--     AND n.n_regionkey = r.r_regionkey
+--     AND r.r_name = 'AMERICA'
+--     GROUP BY c.c_custkey)
+--     AND s_suppkey = 
+--     (SELECT COUNT(s.s_suppkey) as count
+--     FROM supplier s, nation nat, region reg, partsupp
+--     WHERE ps_suppkey = s.s_suppkey
+--     AND s.s_nationkey = nat.n_nationkey
+--     AND nat.n_regionkey = reg.r_regionkey
+--     AND reg.r_name = 'ASIA'
+--     GROUP BY count
+--     HAVING count = 3
