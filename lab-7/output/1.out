@@ -1,0 +1,201 @@
+w_warehousekey             w_name                       w_capacity                     w_suppkey                     s_nationkey          
+             1 Supplier#000000001___PERU                   10                              1                             17
+             2 Supplier#000000001___PERU                   10                              1                             17
+             3 Supplier#000000002___ETHIOPIA                   10                              2                              5
+             4 Supplier#000000002___ETHIOPIA                   10                              2                              5
+             5 Supplier#000000003___ARGENTINA                   10                              3                              1
+             6 Supplier#000000003___ARGENTINA                   10                              3                              1
+             7 Supplier#000000004___MOROCCO                   10                              4                             15
+             8 Supplier#000000004___MOROCCO                   10                              4                             15
+             9 Supplier#000000005___IRAQ                   10                              5                             11
+            10 Supplier#000000005___IRAQ                   10                              5                             11
+            11 Supplier#000000006___KENYA                   10                              6                             14
+            12 Supplier#000000006___KENYA                   10                              6                             14
+            13 Supplier#000000007___UNITED KINGDOM                   10                              7                             23
+            14 Supplier#000000007___UNITED KINGDOM                   10                              7                             23
+            15 Supplier#000000008___PERU                   10                              8                             17
+            16 Supplier#000000008___PERU                   10                              8                             17
+            17 Supplier#000000009___IRAN                   10                              9                             10
+            18 Supplier#000000009___IRAN                   10                              9                             10
+            19 Supplier#000000010___UNITED STATES                   10                             10                             24
+            20 Supplier#000000010___UNITED STATES                   10                             10                             24
+            21 Supplier#000000011___CHINA                   10                             11                             18
+            22 Supplier#000000011___CHINA                   10                             11                             18
+            23 Supplier#000000012___INDIA                   10                             12                              8
+            24 Supplier#000000012___INDIA                   10                             12                              8
+            25 Supplier#000000013___CANADA                   10                             13                              3
+            26 Supplier#000000013___CANADA                   10                             13                              3
+            27 Supplier#000000014___MOROCCO                   10                             14                             15
+            28 Supplier#000000014___MOROCCO                   10                             14                             15
+            29 Supplier#000000015___INDIA                   10                             15                              8
+            30 Supplier#000000015___INDIA                   10                             15                              8
+            31 Supplier#000000016___RUSSIA                   10                             16                             22
+            32 Supplier#000000016___RUSSIA                   10                             16                             22
+            33 Supplier#000000017___ROMANIA                   10                             17                             19
+            34 Supplier#000000017___ROMANIA                   10                             17                             19
+            35 Supplier#000000018___MOZAMBIQUE                   10                             18                             16
+            36 Supplier#000000018___MOZAMBIQUE                   10                             18                             16
+            37 Supplier#000000019___UNITED STATES                   10                             19                             24
+            38 Supplier#000000019___UNITED STATES                   10                             19                             24
+            39 Supplier#000000020___CANADA                   10                             20                              3
+            40 Supplier#000000020___CANADA                   10                             20                              3
+            41 Supplier#000000021___BRAZIL                   10                             21                              2
+            42 Supplier#000000021___BRAZIL                   10                             21                              2
+            43 Supplier#000000022___EGYPT                   10                             22                              4
+            44 Supplier#000000022___EGYPT                   10                             22                              4
+            45 Supplier#000000023___INDONESIA                   10                             23                              9
+            46 Supplier#000000023___INDONESIA                   10                             23                              9
+            47 Supplier#000000024___ALGERIA                   10                             24                              0
+            48 Supplier#000000024___ALGERIA                   10                             24                              0
+            49 Supplier#000000025___RUSSIA                   10                             25                             22
+            50 Supplier#000000025___RUSSIA                   10                             25                             22
+            51 Supplier#000000026___VIETNAM                   10                             26                             21
+            52 Supplier#000000026___VIETNAM                   10                             26                             21
+            53 Supplier#000000027___CHINA                   10                             27                             18
+            54 Supplier#000000027___CHINA                   10                             27                             18
+            55 Supplier#000000028___ALGERIA                   10                             28                              0
+            56 Supplier#000000028___ALGERIA                   10                             28                              0
+            57 Supplier#000000029___ARGENTINA                   10                             29                              1
+            58 Supplier#000000029___ARGENTINA                   10                             29                              1
+            59 Supplier#000000030___MOZAMBIQUE                   10                             30                             16
+            60 Supplier#000000030___MOZAMBIQUE                   10                             30                             16
+            61 Supplier#000000031___MOZAMBIQUE                   10                             31                             16
+            62 Supplier#000000031___MOZAMBIQUE                   10                             31                             16
+            63 Supplier#000000032___UNITED KINGDOM                   10                             32                             23
+            64 Supplier#000000032___UNITED KINGDOM                   10                             32                             23
+            65 Supplier#000000033___GERMANY                   10                             33                              7
+            66 Supplier#000000033___GERMANY                   10                             33                              7
+            67 Supplier#000000034___IRAN                   10                             34                             10
+            68 Supplier#000000034___IRAN                   10                             34                             10
+            69 Supplier#000000035___VIETNAM                   10                             35                             21
+            70 Supplier#000000035___VIETNAM                   10                             35                             21
+            71 Supplier#000000036___JORDAN                   10                             36                             13
+            72 Supplier#000000036___JORDAN                   10                             36                             13
+            73 Supplier#000000037___ALGERIA                   10                             37                              0
+            74 Supplier#000000037___ALGERIA                   10                             37                              0
+            75 Supplier#000000038___EGYPT                   10                             38                              4
+            76 Supplier#000000038___EGYPT                   10                             38                              4
+            77 Supplier#000000039___INDIA                   10                             39                              8
+            78 Supplier#000000039___INDIA                   10                             39                              8
+            79 Supplier#000000040___RUSSIA                   10                             40                             22
+            80 Supplier#000000040___RUSSIA                   10                             40                             22
+            81 Supplier#000000041___CHINA                   10                             41                             18
+            82 Supplier#000000041___CHINA                   10                             41                             18
+            83 Supplier#000000042___RUSSIA                   10                             42                             22
+            84 Supplier#000000042___RUSSIA                   10                             42                             22
+            85 Supplier#000000043___JAPAN                   10                             43                             12
+            86 Supplier#000000043___JAPAN                   10                             43                             12
+            87 Supplier#000000044___GERMANY                   10                             44                              7
+            88 Supplier#000000044___GERMANY                   10                             44                              7
+            89 Supplier#000000045___INDONESIA                   10                             45                              9
+            90 Supplier#000000045___INDONESIA                   10                             45                              9
+            91 Supplier#000000046___UNITED STATES                   10                             46                             24
+            92 Supplier#000000046___UNITED STATES                   10                             46                             24
+            93 Supplier#000000047___KENYA                   10                             47                             14
+            94 Supplier#000000047___KENYA                   10                             47                             14
+            95 Supplier#000000048___KENYA                   10                             48                             14
+            96 Supplier#000000048___KENYA                   10                             48                             14
+            97 Supplier#000000049___UNITED STATES                   10                             49                             24
+            98 Supplier#000000049___UNITED STATES                   10                             49                             24
+            99 Supplier#000000050___INDONESIA                   10                             50                              9
+           100 Supplier#000000050___INDONESIA                   10                             50                              9
+           101 Supplier#000000051___INDONESIA                   10                             51                              9
+           102 Supplier#000000051___INDONESIA                   10                             51                              9
+           103 Supplier#000000052___ROMANIA                   10                             52                             19
+           104 Supplier#000000052___ROMANIA                   10                             52                             19
+           105 Supplier#000000053___GERMANY                   10                             53                              7
+           106 Supplier#000000053___GERMANY                   10                             53                              7
+           107 Supplier#000000054___JAPAN                   10                             54                             12
+           108 Supplier#000000054___JAPAN                   10                             54                             12
+           109 Supplier#000000055___UNITED STATES                   10                             55                             24
+           110 Supplier#000000055___UNITED STATES                   10                             55                             24
+           111 Supplier#000000056___MOZAMBIQUE                   10                             56                             16
+           112 Supplier#000000056___MOZAMBIQUE                   10                             56                             16
+           113 Supplier#000000057___PERU                   10                             57                             17
+           114 Supplier#000000057___PERU                   10                             57                             17
+           115 Supplier#000000058___MOZAMBIQUE                   10                             58                             16
+           116 Supplier#000000058___MOZAMBIQUE                   10                             58                             16
+           117 Supplier#000000059___PERU                   10                             59                             17
+           118 Supplier#000000059___PERU                   10                             59                             17
+           119 Supplier#000000060___INDIA                   10                             60                              8
+           120 Supplier#000000060___INDIA                   10                             60                              8
+           121 Supplier#000000061___INDIA                   10                             61                              8
+           122 Supplier#000000061___INDIA                   10                             61                              8
+           123 Supplier#000000062___ROMANIA                   10                             62                             19
+           124 Supplier#000000062___ROMANIA                   10                             62                             19
+           125 Supplier#000000063___ETHIOPIA                   10                             63                              5
+           126 Supplier#000000063___ETHIOPIA                   10                             63                              5
+           127 Supplier#000000064___UNITED STATES                   10                             64                             24
+           128 Supplier#000000064___UNITED STATES                   10                             64                             24
+           129 Supplier#000000065___RUSSIA                   10                             65                             22
+           130 Supplier#000000065___RUSSIA                   10                             65                             22
+           131 Supplier#000000066___UNITED KINGDOM                   10                             66                             23
+           132 Supplier#000000066___UNITED KINGDOM                   10                             66                             23
+           133 Supplier#000000067___EGYPT                   10                             67                              4
+           134 Supplier#000000067___EGYPT                   10                             67                              4
+           135 Supplier#000000068___VIETNAM                   10                             68                             21
+           136 Supplier#000000068___VIETNAM                   10                             68                             21
+           137 Supplier#000000069___EGYPT                   10                             69                              4
+           138 Supplier#000000069___EGYPT                   10                             69                              4
+           139 Supplier#000000070___FRANCE                   10                             70                              6
+           140 Supplier#000000070___FRANCE                   10                             70                              6
+           141 Supplier#000000071___ARGENTINA                   10                             71                              1
+           142 Supplier#000000071___ARGENTINA                   10                             71                              1
+           143 Supplier#000000072___CHINA                   10                             72                             18
+           144 Supplier#000000072___CHINA                   10                             72                             18
+           145 Supplier#000000073___MOZAMBIQUE                   10                             73                             16
+           146 Supplier#000000073___MOZAMBIQUE                   10                             73                             16
+           147 Supplier#000000074___SAUDI ARABIA                   10                             74                             20
+           148 Supplier#000000074___SAUDI ARABIA                   10                             74                             20
+           149 Supplier#000000075___CHINA                   10                             75                             18
+           150 Supplier#000000075___CHINA                   10                             75                             18
+           151 Supplier#000000076___KENYA                   10                             76                             14
+           152 Supplier#000000076___KENYA                   10                             76                             14
+           153 Supplier#000000077___GERMANY                   10                             77                              7
+           154 Supplier#000000077___GERMANY                   10                             77                              7
+           155 Supplier#000000078___ETHIOPIA                   10                             78                              5
+           156 Supplier#000000078___ETHIOPIA                   10                             78                              5
+           157 Supplier#000000079___KENYA                   10                             79                             14
+           158 Supplier#000000079___KENYA                   10                             79                             14
+           159 Supplier#000000080___VIETNAM                   10                             80                             21
+           160 Supplier#000000080___VIETNAM                   10                             80                             21
+           161 Supplier#000000081___JAPAN                   10                             81                             12
+           162 Supplier#000000081___JAPAN                   10                             81                             12
+           163 Supplier#000000082___CHINA                   10                             82                             18
+           164 Supplier#000000082___CHINA                   10                             82                             18
+           165 Supplier#000000083___KENYA                   10                             83                             14
+           166 Supplier#000000083___KENYA                   10                             83                             14
+           167 Supplier#000000084___UNITED STATES                   10                             84                             24
+           168 Supplier#000000084___UNITED STATES                   10                             84                             24
+           169 Supplier#000000085___GERMANY                   10                             85                              7
+           170 Supplier#000000085___GERMANY                   10                             85                              7
+           171 Supplier#000000086___ROMANIA                   10                             86                             19
+           172 Supplier#000000086___ROMANIA                   10                             86                             19
+           173 Supplier#000000087___UNITED STATES                   10                             87                             24
+           174 Supplier#000000087___UNITED STATES                   10                             87                             24
+           175 Supplier#000000088___IRAQ                   10                             88                             11
+           176 Supplier#000000088___IRAQ                   10                             88                             11
+           177 Supplier#000000089___INDONESIA                   10                             89                              9
+           178 Supplier#000000089___INDONESIA                   10                             89                              9
+           179 Supplier#000000090___FRANCE                   10                             90                              6
+           180 Supplier#000000090___FRANCE                   10                             90                              6
+           181 Supplier#000000091___CANADA                   10                             91                              3
+           182 Supplier#000000091___CANADA                   10                             91                              3
+           183 Supplier#000000092___BRAZIL                   10                             92                              2
+           184 Supplier#000000092___BRAZIL                   10                             92                              2
+           185 Supplier#000000093___MOZAMBIQUE                   10                             93                             16
+           186 Supplier#000000093___MOZAMBIQUE                   10                             93                             16
+           187 Supplier#000000094___EGYPT                   10                             94                              4
+           188 Supplier#000000094___EGYPT                   10                             94                              4
+           189 Supplier#000000095___ROMANIA                   10                             95                             19
+           190 Supplier#000000095___ROMANIA                   10                             95                             19
+           191 Supplier#000000096___JAPAN                   10                             96                             12
+           192 Supplier#000000096___JAPAN                   10                             96                             12
+           193 Supplier#000000097___EGYPT                   10                             97                              4
+           194 Supplier#000000097___EGYPT                   10                             97                              4
+           195 Supplier#000000098___VIETNAM                   10                             98                             21
+           196 Supplier#000000098___VIETNAM                   10                             98                             21
+           197 Supplier#000000099___CHINA                   10                             99                             18
+           198 Supplier#000000099___CHINA                   10                             99                             18
+           199 Supplier#000000100___VIETNAM                   10                            100                             21
+           200 Supplier#000000100___VIETNAM                   10                            100                             21
