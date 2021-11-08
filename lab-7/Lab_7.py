@@ -137,7 +137,11 @@ def Q2(_conn):
     print("++++++++++++++++++++++++++++++++++")
     print("Q2")
     # try:
-    #     sql = """ """
+    #     sql = """SELECT COUNT(DISTINCT w_warehousekey) as wkey_count, SUM(w_capacity) as tot_cap, n_name
+    #            FROM nation, warehouse
+    #            WHERE w_nationkey = n_nationkey
+    #            GROUP BY n_name
+    #            ORDER BY wkey_count DESC, n_name ASC"""
     #     cur = _conn.cursor()
     #     cur.execute(sql)
         
