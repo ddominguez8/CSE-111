@@ -29,4 +29,9 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 - Will go to TA for the following lab to see if I can further improve this lab past the due date and do better for next lab.
 
 ## Midterm 1
-- I thought it was a very fair midterm. No complaints overall, other than just having the midterm on a Friday in general is rough since I try to get stuff done Friday (groceries, errands, etc. as opposed to Saturday/Sunday when there's lines and traffic). I sped through it and felt pretty happy about my progress. I will not be posting the midterm solutions since that is especially protected and would rather not be sharing it publicly. 
+- I thought it was a very fair midterm. No complaints overall, other than just having the midterm on a Friday in general is rough since I try to get stuff done Friday (groceries, errands, etc. as opposed to Saturday/Sunday when there's lines and traffic). I sped through it and felt pretty happy about my progress. I will not be posting the midterm solutions since that is especially protected and would rather not be sharing it publicly.
+
+## Lab 7 
+- I've actually LOVED this lab. I haven't finished it yet but I'm still doing more. I also don't want to take too much time doing it, but it might just be done anyway. Learned up how to use f-string over str.format() since str.format() was actually slowing down my loading speeds. 
+- Q3 was TONS of fun to play with. I kept wondering why my query wasn't working, and finally found that the default read() in python grabs EVERYTHING. I only needed the first line. So after more research I was like yeah, let's do a readline(). THIS APPENDS A "\n" AFTER. So finally I found that I could specify the size of the readline() so that I could specify only 5 letters, thus, JAPAN was finally read correctly.
+- Welp, just figured out I could've just line.rstrip() instead. Nice. Gave it my best shot, although granted just a small unfamiliarity with Python slowed me down, but all good. Learned it, now we move on to the next.     
