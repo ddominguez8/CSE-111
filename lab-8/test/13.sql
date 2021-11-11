@@ -1,5 +1,6 @@
+.output output/13.out
 .eqp on
-
+-- .expert
 select sum(c_acctbal)
 from customer, region, nation
 where c_nationkey = n_nationkey
