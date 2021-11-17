@@ -37,4 +37,8 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 - Welp, just figured out I could've just line.rstrip() instead. Nice. Gave it my best shot, although granted just a small unfamiliarity with Python slowed me down, but all good. Learned it, now we move on to the next.
 
 ## Lab 8 
-- Pretty standard, most of my debugging was just making sure I had all the correct indices via a PRAGMA index_list(table_name)     
+- Pretty standard, most of my debugging was just making sure I had all the correct indices via a PRAGMA index_list(table_name)    
+
+## Lab 9
+- Not terrible. Took me a minute to recall that views are just tables, so these questions just wanted us to expand our tables mostly and execute views based on what the values were in the view instead of the tables. 
+- For future reference, probably best to keep a piece of paper or something on the side to remember _what_ views corresponded with which tables. You'll see various notes in test.sql where I tried to do this but it was still hard to remember. 

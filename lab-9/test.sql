@@ -113,6 +113,12 @@ FROM part, lineitem
 WHERE p_partkey = l_partkey 
 GROUP BY p_type
 
+SELECT p_type, min_discount, max_discount
+FROM V10
+WHERE p_type LIKE '%ECONOMY%'
+AND p_type LIKE '%COPPER%'
+GROUP BY p_type;
+
 CREATE VIEW V151 (c_custkey, c_name, c_nationkey, c_acctbal)
 AS 
 SELECT c_custkey, c_name, c_nationkey, c_acctbal 

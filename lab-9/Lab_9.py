@@ -365,7 +365,20 @@ def Q10(_conn):
     print("++++++++++++++++++++++++++++++++++")
     print("Q10")
     try: 
-        sql = """ """
+        sql = """SELECT p_type, min_discount, max_discount
+            FROM V10
+            WHERE p_type LIKE '%ECONOMY%'
+            AND p_type LIKE '%COPPER%'
+            GROUP BY p_type;"""
+
+        cur = _conn.cursor()
+        cur.execute(sql) 
+
+        rows = cur.fetchall()
+        for row in rows: 
+            l = f"{row[0]}|{row[1]}|{row[2]}\n"
+            with open("output/10.out", "a") as f:
+                f.write(l)
     
     except Error as e:
         _conn.rollback()
