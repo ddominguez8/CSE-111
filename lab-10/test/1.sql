@@ -3,11 +3,13 @@
 -- Write a query that returns the number of orders from 2021. Put all three SQL queries in 1.sql 
 -- David Dominguez
 
-CREATE TRIGGER t1 BEFORE INSERT 
-ON orders 
+CREATE TRIGGER t1 
+BEFORE INSERT ON orders 
+FOR EACH ROW
 BEGIN 
 	UPDATE orders 
-	SET NEW.o_orderdate = '2021-12-01';	
+	SET o_orderdate = '2021-12-01'
+	WHERE o_orderkey = NEW.o_orderkey;
 END;
 
 INSERT INTO orders 
@@ -21,4 +23,4 @@ WHERE o_orderdate LIKE '2021-%';
 
 -- DROP TRIGGER t1;
 
-select * from sqlite_master where type = 'trigger';
+-- select * from sqlite_master where type = 'trigger';
