@@ -10,7 +10,7 @@ AFTER INSERT on lineitem
 FOR EACH ROW 
 BEGIN 
     UPDATE orders
-    SET o_orderpriority = '2-HIGH'
+    SET o_orderpriority = 'HIGH'
     WHERE NEW.l_orderkey = o_orderkey;
 END;
 
@@ -19,28 +19,22 @@ BEFORE DELETE on lineitem
 FOR EACH ROW 
 BEGIN 
     UPDATE orders
-    SET o_orderpriority = '2-HIGH'
+    SET o_orderpriority = 'HIGH'
     WHERE OLD.l_orderkey = o_orderkey;
 END;
 
--- DELETE FROM lineitem
--- WHERE l_comment IN 
--- (SELECT DISTINCT l_comment
--- FROM lineitem, orders
--- WHERE l_orderkey = o_orderkey
---     AND o_orderdate BETWEEN '1995-12-01' AND '1995-12-31');
-
-SELECT COUNT(DISTINCT l_comment)
-FROM lineitem, orders
-WHERE l_orderkey = o_orderkey
-    AND o_orderdate BETWEEN '1995-12-01' AND '1995-12-31';
-
+DELETE FROM lineitem
+WHERE l_orderkey IN 
+(SELECT DISTINCT l_orderkey 
+FROM orders, lineitem 
+WHERE o_orderdate BETWEEN '1995-12-01' AND '1995-12-31'
+    AND l_orderkey = o_orderkey);
     
 
 SELECT COUNT(o_orderpriority) 
 FROM orders 
 WHERE (o_orderdate BETWEEN '1995-10-01' AND '1995-12-31')
-    AND o_orderpriority = '2-HIGH';
+    AND o_orderpriority = 'HIGH';
 
 
 -- DROP TRIGGER t4a;
