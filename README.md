@@ -44,4 +44,7 @@ This repository contains all the labs/files I utilized throughout my time in CSE
 - For future reference, probably best to keep a piece of paper or something on the side to remember _what_ views corresponded with which tables. You'll see various notes in test.sql where I tried to do this but it was still hard to remember.
 
 ## Lab 10 
-- Lots of weird debugging like _distinct p_partkey_ would not give me the proper count. I feel like although this assignment was focused on triggers, all the issues I got were with the other statements.  
+- Lots of weird debugging like _distinct p_partkey_ would not give me the proper count. I feel like although this assignment was focused on triggers, all the issues I got were with the other statements.
+
+## Quiz 5
+- Had to sit down and really use my head for this one, but luckily I understood the mentioned constraint concepts pretty well.   
